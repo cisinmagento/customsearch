@@ -1,0 +1,27 @@
+{
+  "name": "cisin/customsearch",
+  "description": "Extended Magento catalog search",
+  "require": {
+        "php": "~5.6.0|~5.6.5|~7.0.2|~7.0.30|~7.0.4|~7.0.6|~7.1.0|~7.1.1|~7.1.19|~7.1.28"
+    },
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/cisinmagento/customsearch.git"
+        }
+    ],
+	"autoload": {
+	    "files": [
+	        "registration.php"
+	    ],
+	    "psr-4": {
+	        "Cisin\\Customsearch\\": ""
+	    }	
+	}
+}
